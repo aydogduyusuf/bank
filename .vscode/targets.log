@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Aug 17 10:33:08 2022
+# Make data base, printed on Fri Aug 19 10:49:13 2022
 
 # Variables
 
@@ -43,11 +43,11 @@ CURDIR := /home/yuaydo/Desktop/projects/GO/src/backend_master_class
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/104
+SNAP_DATA = /var/snap/code/105
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:54166
+JOURNAL_STREAM = 8:73883
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -71,9 +71,9 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-_ = /snap/code/104/usr/share/code/code
+_ = /snap/code/105/usr/share/code/code
 # environment
-MANAGERPID = 2512
+MANAGERPID = 4299
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -83,7 +83,7 @@ VSCODE_CWD = /home/yuaydo
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/104/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -91,17 +91,17 @@ PATH = /usr/.local/bin:/home/yuaydo/.local/bin:/usr/.local/bin:/home/yuaydo/.loc
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/yuaydo-N552VW:@/tmp/.ICE-unix/2739,unix/yuaydo-N552VW:/tmp/.ICE-unix/2739
+SESSION_MANAGER = local/yuaydo-N552VW:@/tmp/.ICE-unix/4521,unix/yuaydo-N552VW:/tmp/.ICE-unix/4521
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/yuaydo/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/104
+SNAP = /snap/code/105
 # environment
 GOPATH = /home/yuaydo/Desktop/projects/GO
 # environment
-SNAP_VERSION = 6d9b74a7
+SNAP_VERSION = e4503b30
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -109,9 +109,9 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 63f29a279001479fbaa8306189d9fecf
+INVOCATION_ID = 5c71fe9d956d4121adf6a096d1b70c1f
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/104/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -121,7 +121,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 10030
+GIO_LAUNCHED_DESKTOP_FILE_PID = 7236
 # automatic
 %F = $(notdir $%)
 # environment
@@ -133,7 +133,7 @@ PWD = /home/yuaydo/Desktop/projects/GO/src/backend_master_class
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2702
+SSH_AGENT_PID = 4484
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -147,7 +147,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/yuaydo/.config/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+VSCODE_CODE_CACHE_PATH = /home/yuaydo/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LOGNAME = yuaydo
 # environment
@@ -179,7 +179,7 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/yuaydo/snap/code/104
+SNAP_USER_DATA = /home/yuaydo/snap/code/105
 # environment
 SHLVL = 0
 # environment
@@ -189,7 +189,7 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = yuaydo
 # environment
-SNAP_REVISION = 104
+SNAP_REVISION = 105
 # environment
 LC_MONETARY = tr_TR.UTF-8
 # makefile
@@ -207,7 +207,7 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-e3a12435-1.70.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-e3a12435-1.70.2-main.sock
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # makefile
@@ -263,7 +263,7 @@ LC_ADDRESS = tr_TR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 10075
+VSCODE_PID = 7284
 # variable set hash-table stats:
 # Load=127/1024=12%, Rehash=0, Collisions=23/152=15%
 
@@ -278,13 +278,13 @@ VSCODE_PID = 10075
 # 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
- 
-make: *** No rule to make target 'all'.  Stop.
-
 
 # No implicit rules.
 
 # Files
+
+ 
+make: *** No rule to make target 'all'.  Stop.
 
 postgres:
 #  Phony target (prerequisite of .PHONY).
@@ -301,7 +301,15 @@ all:
 #  File does not exist.
 #  File has not been updated.
 
-.PHONY: postgres createdb dropdb migrateup migratedown sqlc test server
+migratedown1:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/bank?sslmode=disable" -verbose down 1
+
+.PHONY: postgres createdb dropdb migrateup migratedown sqlc test server mock migrateup1 migratedown1
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -311,13 +319,13 @@ sqlc:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 17):
+#  recipe to execute (from 'Makefile', line 23):
 	sqlc generate
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-16 16:34:32.211604096
+#  Last modified 2022-08-17 16:25:03.258011914
 #  File has been updated.
 #  Successfully updated.
 
@@ -326,7 +334,7 @@ server:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 23):
+#  recipe to execute (from 'Makefile', line 29):
 	go run main.go
 
 test:
@@ -334,7 +342,7 @@ test:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 20):
+#  recipe to execute (from 'Makefile', line 26):
 	go test -v -cover ./...
 
 createdb:
@@ -367,28 +375,44 @@ migrateup:
 #  recipe to execute (from 'Makefile', line 11):
 	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/bank?sslmode=disable" -verbose up
 
-migratedown:
+migrateup1:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 14):
+	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/bank?sslmode=disable" -verbose up 1
+
+migratedown:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
 	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/bank?sslmode=disable" -verbose down
 
+mock:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	mockgen -package mockdb -destination db/mock/store.go github.com/aydogduyusuf/bank/db/sqlc Store
+
 # files hash-table stats:
-# Load=13/1024=1%, Rehash=0, Collisions=0/31=0%
+# Load=16/1024=2%, Rehash=0, Collisions=0/37=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 228 B / avg = 7 B
-# current buf: size = 8162 B / used = 228 B / count = 30 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 33 / storage = 257 B / avg = 7 B
+# current buf: size = 8162 B / used = 257 B / count = 33 / avg = 7 B
 
-# strcache performance: lookups = 51 / hit rate = 41%
+# strcache performance: lookups = 60 / hit rate = 45%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=1/51=2%
-# Finished Make data base on Wed Aug 17 10:33:08 2022
+# Load=33/8192=0%, Rehash=0, Collisions=1/60=2%
+# Finished Make data base on Fri Aug 19 10:49:13 2022
 
  
