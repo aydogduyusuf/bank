@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 19 10:49:13 2022
+# Make data base, printed on Sun Aug 21 16:53:20 2022
 
 # Variables
 
@@ -47,7 +49,7 @@ SNAP_DATA = /var/snap/code/105
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:73883
+JOURNAL_STREAM = 8:51503
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -73,7 +75,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 _ = /snap/code/105/usr/share/code/code
 # environment
-MANAGERPID = 4299
+MANAGERPID = 1901
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -91,7 +93,7 @@ PATH = /usr/.local/bin:/home/yuaydo/.local/bin:/usr/.local/bin:/home/yuaydo/.loc
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/yuaydo-N552VW:@/tmp/.ICE-unix/4521,unix/yuaydo-N552VW:/tmp/.ICE-unix/4521
+SESSION_MANAGER = local/yuaydo-N552VW:@/tmp/.ICE-unix/2126,unix/yuaydo-N552VW:/tmp/.ICE-unix/2126
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -109,7 +111,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 5c71fe9d956d4121adf6a096d1b70c1f
+INVOCATION_ID = dc8427dd376342d993cab966bce527ac
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -121,7 +123,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 7236
+GIO_LAUNCHED_DESKTOP_FILE_PID = 16684
 # automatic
 %F = $(notdir $%)
 # environment
@@ -133,12 +135,13 @@ PWD = /home/yuaydo/Desktop/projects/GO/src/backend_master_class
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 4484
+SSH_AGENT_PID = 2089
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
 GTK_MODULES = gail:atk-bridge
 # environment
+ 
 GOMODCACHE = /home/yuaydo/Desktop/projects/GO/pkg/mod
 # environment
 HOME = /home/yuaydo
@@ -263,7 +266,7 @@ LC_ADDRESS = tr_TR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 7284
+VSCODE_PID = 16736
 # variable set hash-table stats:
 # Load=127/1024=12%, Rehash=0, Collisions=23/152=15%
 
@@ -273,9 +276,9 @@ VSCODE_PID = 7284
 
 # Directories
 
-# . (device 2066, inode 7472901): 16 files, no impossibilities.
+# . (device 2066, inode 7472901): 17 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -283,10 +286,8 @@ VSCODE_PID = 7284
 
 # Files
 
- 
-make: *** No rule to make target 'all'.  Stop.
-
 postgres:
+ 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -380,6 +381,7 @@ migrateup1:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+ 
 #  recipe to execute (from 'Makefile', line 14):
 	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/bank?sslmode=disable" -verbose up 1
 
@@ -407,12 +409,12 @@ mock:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 33 / storage = 257 B / avg = 7 B
-# current buf: size = 8162 B / used = 257 B / count = 33 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 34 / storage = 263 B / avg = 7 B
+# current buf: size = 8162 B / used = 263 B / count = 34 / avg = 7 B
 
-# strcache performance: lookups = 60 / hit rate = 45%
+# strcache performance: lookups = 61 / hit rate = 44%
 # hash-table stats:
-# Load=33/8192=0%, Rehash=0, Collisions=1/60=2%
-# Finished Make data base on Fri Aug 19 10:49:13 2022
+# Load=34/8192=0%, Rehash=0, Collisions=1/61=2%
+# Finished Make data base on Sun Aug 21 16:53:20 2022
 
  
